@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/City List/assets/css/city-list.css" />
+  </head>
+  <body>
+    <div class="logo">
+      <img src="/City List/assets/img/tur-tip.jpg" alt="" />
+    </div>
+    <div class="container">
+      <div class="main">
+        <input
+          type="text"
+          id="txtNumber"
+          placeholder="Enter city name for create a city list(City List only works with Turkey cities!)"
+        />
+        <button id="add-button">Add</button>
+      </div>
+      <div class="option">
+        <button id="sort-button">Sort</button>
+        <button id="reverse-button">Reverse</button>
+        <button id="remove-first-button">Remove First</button>
+        <button id="remove-last-button">Remove Last</button>
+        <button id="remove-all-button">Remove All</button>
+        <button id="mix-button">Mix</button>
+      </div>
+      <div class="result">
+        <table id="city-table">
+          <thead>
+            <th>CITY LIST</th>
+          </thead>
+          <tbody id="cities"></tbody>
+        </table>
+      </div>
+    </div>
+    <script type="module" src="/City List/assets/js/city-list.js"></script>
+  </body>
+</html>

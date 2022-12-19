@@ -1,0 +1,88 @@
+:root{
+    --color1: #610897;
+    --color2:#C7771F;
+    --color3:#BC0C31;
+    --color4:#9B9708;
+    --color5:#04308F;
+    --color6:#A9A9A9;
+    --color7: #FFFFFF;
+
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    margin-top: 5rem;
+    text-align: center;
+}
+.container{
+    margin-top: 2rem;
+    text-align: center;
+}
+.container input{
+    padding: .70rem;
+    width: 36vw;
+    border: 3px solid var(--color4);
+    border-radius: 5px;
+}
+::placeholder { 
+    color: red;
+    opacity: 1; 
+}
+.container input:focus{
+    outline-color: var(--color1);
+}
+.option{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: .5rem;
+}
+body button{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color4);
+    color: var(--color3);
+    padding: .75rem 1.5rem;
+    font-size: medium;
+    margin-bottom: .5rem;
+    font-weight: 700;}
+body button:hover{
+    background-color: var(--color3);
+    color: var(--color1); 
+}
+#city-table{
+    margin-top: .45rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: left;
+}
+#city-table thead{
+    text-align: center;
+    font-size: 1.7rem;
+    text-align: center;
+    background-color: var(--color2);
+    color: var(--color3);
+}
+#city-table tbody tr{
+    font-size: 1.4rem;
+}
+#city-table tbody tr:nth-child(odd){
+    background-color: var(--color6);
+    color: var(--color7);
+}
+#city-table tbody tr:nth-child(even){
+    background-color: var(--color7);
+    
+}
+#city-table tbody tr td{
+    padding-left: 1rem;
+}
+.result{
+    display: none;
+}
+.show-result{
+    display: block;
+}
