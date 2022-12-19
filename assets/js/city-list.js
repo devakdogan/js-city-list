@@ -43,7 +43,6 @@ textEl.addEventListener("keypress", (event) => {
 sortButton.addEventListener("click",()=>{
     cities.sort();
     arrayToTable();
-    arrayToTable();
 })
 
 reverseButton.addEventListener("click",()=>{
